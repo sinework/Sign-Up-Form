@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  background-color: #eceef1;
+}
+
+/*Navigation*/
+
+header {
+  /* top: 0; */
+}
+nav {
+  display: flex;
+  
+  padding: 10px;
+}
+.sign-up-request {
+  margin-left: auto;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+.sign-up-request > a {
+  
+  /* font-size: 12px; */
+}
+.sign-up-request > p {
+  margin: 0;
+  padding-right: 5px;
+  
+  color: #505050;
+}
+
+.sign-up-btn {
+  margin-top: 5px;
+  padding-right: 25px;
+  width: 102px;
+  height: 30px;
+}
+#font{
+    font-size: 14px;
+}
