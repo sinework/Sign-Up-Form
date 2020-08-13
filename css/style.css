@@ -11,7 +11,7 @@ header {
 }
 nav {
   display: flex;
-  
+
   padding: 10px;
 }
 .sign-up-request {
@@ -21,22 +21,32 @@ nav {
 }
 
 .sign-up-request > a {
-  
   /* font-size: 12px; */
 }
 .sign-up-request > p {
   margin: 0;
   padding-right: 5px;
-  
+
   color: #505050;
 }
 
 .sign-up-btn {
   margin-top: 5px;
-  padding-right: 25px;
-  width: 102px;
+  margin-right: 25px;
+  width: 120px;
   height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
 }
-#font{
-    font-size: 14px;
+#font {
+  font-size: 14px;
+}
+#lock {
+  height: 10px;
+  width: 13px;
+}
+#sign-text {
+  margin: 0;
+  padding: 0;
 }
