@@ -4,7 +4,6 @@ body {
   background-color: #eceef1;
 }
 main {
-
 }
 /*Navigation*/
 
@@ -17,6 +16,21 @@ nav {
   padding: 10px;
   padding-top: 5px;
 }
+
+/* form{
+    width: 100%;
+}
+input{
+    width: 90%;
+    margin: 2px;
+}
+label{
+    width: 80%;
+    margin: 2px;
+}
+form >button{
+    width: 80%;
+} */
 .sign-up-request {
   margin-left: auto;
   padding: 10px;
@@ -43,7 +57,7 @@ nav {
   border-radius: 5%;
   border-width: 1px;
   align-items: center;
-  background-color: #0077C5;
+  background-color: #0077c5;
   outline: none;
   color: white;
 }
@@ -60,17 +74,20 @@ nav {
   padding: 0;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width: 750px) {
   header {
-    display:none;
+    display: none;
   }
 }
 
+/* The logo and title section*/
 #logo {
-  margin-top: 70px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#logo-png {
 }
 #logos {
   display: flex;
@@ -79,15 +96,48 @@ nav {
 
 #firstlogo {
   height: 30px;
-  top:0;
+  top: 0;
 }
 
-#secondlogo{
-height: 30px;
-top:0;
+#secondlogo {
+  height: 30px;
+  top: 0;
 }
 
 #thirdlogo {
   height: 30px;
-  top:0;
+  top: 0;
+}
+/* The Form*/
+/* .form-container {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  height: 672px;
+  width: 380px;
+  border: thin;
+   margin: auto;
+  background-color: white;
+}
+.form-header{
+margin-bottom: 30px;
+width: 100%;
+} */
+.form-container {
+  width: 380px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 15px auto;
+  background-color: #fff;
+  text-align: center;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: start;
+}
+#input{
+  min-width: 350px;
+  height: 30px;
+  margin: 2px auto 40px auto;
 }
