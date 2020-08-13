@@ -221,3 +221,18 @@ a {
     font-size: 12px;
     padding-top: 5px;
 }
+
+.privacy-setting{
+    
+        position:fixed;
+        right:40px;
+        bottom:0px;
+        width: 124;
+        height: 40px;
+        border: none;
+        
+        padding: 10px;
+        background-color: #858585;
+        color: #fff;
+        cursor: pointer;
+}
