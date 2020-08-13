@@ -124,7 +124,7 @@ margin-bottom: 30px;
 width: 100%;
 } */
 .form-container {
-  width: 380px;
+  width: 340px;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
   padding: 20px;
   margin: 15px auto;
@@ -136,8 +136,40 @@ form {
   grid-template-columns: 1fr;
   justify-items: start;
 }
-#input{
-  min-width: 350px;
+#email,
+#password {
+  min-width: 320px;
   height: 30px;
   margin: 2px auto 40px auto;
+}
+#phone {
+  min-width: 320px;
+  height: 30px;
+  margin: 2px auto 2px auto;
+}
+label {
+  margin-top: 2px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+small {
+  margin-top: 2px;
+  margin-bottom: 30px;
+  margin-left: 13px;
+}
+#learn {
+  text-decoration: none;
+}
+#submit {
+  width: 95%;
+  height: 38px;
+  margin: auto;
+  background-color: #0077c5;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 2%;
+  border-width: thin;
+}
+.form-footer {
+  background-color: #eceef1;
+  height: 40px;
 }
