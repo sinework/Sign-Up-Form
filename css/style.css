@@ -5,7 +5,9 @@ body {
 }
 main {
 }
-/*Navigation*/
+
+
+                                /* Navigation bar */
 
 header {
   padding-right: 30px;
@@ -17,20 +19,6 @@ nav {
   padding-top: 5px;
 }
 
-/* form{
-    width: 100%;
-}
-input{
-    width: 90%;
-    margin: 2px;
-}
-label{
-    width: 80%;
-    margin: 2px;
-}
-form >button{
-    width: 80%;
-} */
 .sign-up-request {
   margin-left: auto;
   padding: 10px;
@@ -38,7 +26,6 @@ form >button{
 }
 
 .sign-up-request > a {
-  /* font-size: 12px; */
 }
 .sign-up-request > p {
   margin: 0;
@@ -80,7 +67,7 @@ form >button{
   }
 }
 
-/* The logo and title section*/
+                     /* The logo and title section*/
 #logo {
   margin-top: 10px;
   display: flex;
@@ -108,21 +95,8 @@ form >button{
   height: 30px;
   top: 0;
 }
-/* The Form*/
-/* .form-container {
-  display: flex;
-  justify-self: center;
-  align-self: center;
-  height: 672px;
-  width: 380px;
-  border: thin;
-   margin: auto;
-  background-color: white;
-}
-.form-header{
-margin-bottom: 30px;
-width: 100%;
-} */
+                                    /* The Form*/
+
 .form-container {
   width: 340px;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
@@ -173,6 +147,9 @@ small {
   border-width: thin;
   color: white;
 }
+
+                          /* Form footer */
+
 .form-footer {
   background-color: #eceef1;
   height: 40px;
@@ -180,6 +157,9 @@ small {
     width: 340px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
     padding: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+
     margin:  auto;
 
 }
@@ -192,7 +172,7 @@ small {
 
 
  }
-
+                               /* Page Footer */
  .footer-info {
 margin-top: 30px;
 display: flex;
@@ -223,14 +203,14 @@ a {
 }
 
 .privacy-setting{
-    
+
         position:fixed;
         right:40px;
         bottom:0px;
         width: 124;
         height: 40px;
         border: none;
-        
+
         padding: 10px;
         background-color: #858585;
         color: #fff;
