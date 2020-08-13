@@ -3,7 +3,9 @@ body {
   margin: 0;
   background-color: #eceef1;
 }
+main {
 
+}
 /*Navigation*/
 
 header {
@@ -13,6 +15,7 @@ nav {
   display: flex;
 
   padding: 10px;
+  padding-top: 5px;
 }
 .sign-up-request {
   margin-left: auto;
@@ -61,4 +64,30 @@ nav {
   header {
     display:none;
   }
+}
+
+#logo {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logos {
+  display: flex;
+  justify-content: center;
+}
+
+#firstlogo {
+  height: 30px;
+  top:0;
+}
+
+#secondlogo{
+height: 30px;
+top:0;
+}
+
+#thirdlogo {
+  height: 30px;
+  top:0;
 }
