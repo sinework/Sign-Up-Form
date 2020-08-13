@@ -7,7 +7,7 @@ body {
 /*Navigation*/
 
 header {
-  /* top: 0; */
+  padding-right: 30px;
 }
 nav {
   display: flex;
@@ -30,14 +30,19 @@ nav {
   color: #505050;
 }
 
-.sign-up-btn {
+#sign-btn {
   margin-top: 5px;
-  margin-right: 25px;
-  width: 120px;
-  height: 30px;
+  width: 102px;
+  height: 34px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-right: 5px;
+  border-radius: 5%;
+  border-width: 1px;
+  align-items: center;
+  background-color: #0077C5;
+  outline: none;
+  color: white;
 }
 #font {
   font-size: 14px;
@@ -45,8 +50,15 @@ nav {
 #lock {
   height: 10px;
   width: 13px;
+  padding-bottom: 15px;
 }
 #sign-text {
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width:750px) {
+  header {
+    display:none;
+  }
 }
