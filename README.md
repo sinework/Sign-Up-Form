@@ -4,8 +4,8 @@
 >
 > This is a replica of a the sign-up form in the Intuit website. The page is fully responsive. On smaller screens,the navbar dissapears and the form takes up most of the screen.
 
-![screenshot](./Full-page-version.PNG)
-![screenshot](./mobile-version.PNG)
+![screenshot](./assets/image/Full-page-version.PNG)
+![screenshot](./assets/image/mobile-version.PNG)
 
 ## Built With
 
