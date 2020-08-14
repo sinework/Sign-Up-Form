@@ -3,9 +3,7 @@ body {
   margin: 0;
   background-color: #eceef1;
 }
-
                                 /* Navigation bar */
-
 header {
   padding-right: 30px;
 }
@@ -20,9 +18,6 @@ nav {
   margin-left: auto;
   padding: 10px;
   padding-top: 5px;
-}
-
-.sign-up-request > a {
 }
 
 .sign-up-request > p {
@@ -70,15 +65,13 @@ nav {
     display: none;
   }
 }
-                     /* The logo and title section*/
+
+                     /* The logo and title section */
 #logo {
   margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#logo-png {
 }
 
 #logos {
@@ -100,7 +93,8 @@ nav {
   height: 30px;
   top: 0;
 }
-                                    /* The Form*/
+
+                                    /* The Form */
 .form-container {
   width: 340px;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
@@ -147,41 +141,31 @@ small {
   text-decoration: none;
 }
 
-#submit {
-  width: 95%;
-  height: 38px;
-  margin: auto;
-  background-color: #0077c5;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  border-width: thin;
-  color: white;
-}
                           /* Form footer */
 .form-footer {
   background-color: #eceef1;
   height: 40px;
-    text-align: center;
-    width: 340px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    padding-top:10px;
-    padding-bottom: 10px;
-    margin:  auto;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
 }
 
- #footer-captcha {
+#footer-captcha {
    margin-top: 0;
    font-size: 12px;
    margin-top: 10px;
    color: grey;
  }
                                /* Page Footer */
- .footer-info {
-margin-top: 30px;
-display: flex;
-justify-content: center;
-font-family: 'Roboto', sans-serif;
+.footer-info {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .copyrights {
@@ -205,7 +189,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .privacy-setting {
-  position:fixed;
+  position: fixed;
   right: 40px;
   bottom: 1px;
   width: 124px;
