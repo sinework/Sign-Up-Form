@@ -155,11 +155,23 @@ small {
 }
 
 #footer-captcha {
-   margin-top: 0;
-   font-size: 12px;
-   margin-top: 10px;
-   color: grey;
- }
+  margin-top: 0;
+  font-size: 12px;
+  margin-top: 10px;
+  color: grey;
+}
+
+#submit {
+  width: 95%;
+  height: 38px;
+  margin: auto;
+  background-color: #0077c5;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border-width: thin;
+  color: white;
+}
+
                                /* Page Footer */
 .footer-info {
   margin-top: 30px;
