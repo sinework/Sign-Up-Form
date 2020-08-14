@@ -48,9 +48,14 @@ nav {
   outline: none;
   color: white;
 }
-#font {
+#font-p {
   font-size: 14px;
 }
+
+#font-a {
+  font-size: 14px;
+}
+
 #lock {
   height: 10px;
   width: 13px;
