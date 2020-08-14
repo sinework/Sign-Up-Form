@@ -185,34 +185,34 @@ font-family: 'Roboto', sans-serif;
 }
 
 .copyrights {
-display: flex;
-justify-content: center;
-width:55% ;
-margin: auto;
-text-align: center;
-color: black;
-font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
-a {
+.sign-up-request a {
   text-decoration: none;
 }
 
 #agreement {
-    font-style: italic;
-    font-size: 12px;
-    padding-top: 5px;
+  font-style: italic;
+  font-size: 12px;
+  padding-top: 5px;
 }
 
-.privacy-setting{
-        position:fixed;
-        right:40px;
-        bottom:0px;
-        width: 124;
-        height: 40px;
-        border: none;
-        padding: 10px;
-        background-color: #858585;
-        color: #fff;
-        cursor: pointer;
+.privacy-setting {
+  position:fixed;
+  right: 40px;
+  bottom: 1px;
+  width: 124px;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  background-color: #858585;
+  color: #fff;
+  cursor: pointer;
 }
