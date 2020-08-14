@@ -3,18 +3,15 @@ body {
   margin: 0;
   background-color: #eceef1;
 }
-main {
-}
-
 
                                 /* Navigation bar */
 
 header {
   padding-right: 30px;
 }
+
 nav {
   display: flex;
-
   padding: 10px;
   padding-top: 5px;
 }
@@ -27,10 +24,10 @@ nav {
 
 .sign-up-request > a {
 }
+
 .sign-up-request > p {
   margin: 0;
   padding-right: 5px;
-
   color: #505050;
 }
 
@@ -48,6 +45,7 @@ nav {
   outline: none;
   color: white;
 }
+
 #font-p {
   font-size: 14px;
 }
@@ -61,6 +59,7 @@ nav {
   width: 13px;
   padding-bottom: 15px;
 }
+
 #sign-text {
   margin: 0;
   padding: 0;
@@ -71,7 +70,6 @@ nav {
     display: none;
   }
 }
-
                      /* The logo and title section*/
 #logo {
   margin-top: 10px;
@@ -79,8 +77,10 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 #logo-png {
 }
+
 #logos {
   display: flex;
   justify-content: center;
@@ -101,7 +101,6 @@ nav {
   top: 0;
 }
                                     /* The Form*/
-
 .form-container {
   width: 340px;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
@@ -111,37 +110,43 @@ nav {
   background-color: #fff;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-
 }
+
 form {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: start;
 }
+
 #email,
 #password {
   min-width: 320px;
   height: 30px;
   margin: 2px auto 40px auto;
 }
+
 #phone {
   min-width: 320px;
   height: 30px;
   margin: 2px auto 2px auto;
 }
+
 label {
   margin-top: 2px;
   margin-left: 15px;
   margin-bottom: 5px;
 }
+
 small {
   margin-top: 2px;
   margin-bottom: 30px;
   margin-left: 13px;
 }
+
 #learn {
   text-decoration: none;
 }
+
 #submit {
   width: 95%;
   height: 38px;
@@ -152,9 +157,7 @@ small {
   border-width: thin;
   color: white;
 }
-
                           /* Form footer */
-
 .form-footer {
   background-color: #eceef1;
   height: 40px;
@@ -164,18 +167,14 @@ small {
     padding: 20px;
     padding-top:10px;
     padding-bottom: 10px;
-
     margin:  auto;
-
 }
+
  #footer-captcha {
    margin-top: 0;
    font-size: 12px;
    margin-top: 10px;
    color: grey;
-
-
-
  }
                                /* Page Footer */
  .footer-info {
@@ -183,7 +182,6 @@ margin-top: 30px;
 display: flex;
 justify-content: center;
 font-family: 'Roboto', sans-serif;
-
 }
 
 .copyrights {
@@ -194,7 +192,6 @@ margin: auto;
 text-align: center;
 color: black;
 font-family: 'Roboto', sans-serif;
-
 }
 
 a {
@@ -208,14 +205,12 @@ a {
 }
 
 .privacy-setting{
-
         position:fixed;
         right:40px;
         bottom:0px;
         width: 124;
         height: 40px;
         border: none;
-
         padding: 10px;
         background-color: #858585;
         color: #fff;
